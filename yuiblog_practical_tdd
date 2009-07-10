@@ -1,27 +1,27 @@
 Practical Test Driven Development for JavaScript
 
-Introduction
+[Introduction]
 
-The decision to start unit testing
-	New code is breaking old code
-	Reduce risk of integrating code from other sources
+[The decision to start unit testing]
+	[New code is breaking old code]
+	[Reduce risk of integrating code from other sources]
 
-Why test driven development
-	More structured
-	More thought goes into each discussion
-	Over-all cost savings since bugs are found in context and downstream issues are not introduced
-	Better test coverage
-	Better value to QA (if you work with a QA team)
+[Why test driven development]
+	[More structured]
+	[More thought goes into each discussion]
+	[Over-all cost savings since bugs are found in context and downstream issues are not introduced]
+	[Better test coverage]
+	[Better value to QA (if you work with a QA team)]
 
-Making adoption simple
-	Simple steps
-	Flexibility in process
-	Custom conventions and tools
+[Making adoption simple]
+	[Simple steps]
+	[Flexibility in process]
+	[Custom conventions and tools]
 	
-Re-using tests
-	Ongoing regression tests
-	Integration with build process
+[Re-using tests]
+	[Ongoing regression tests]
+	[Integration with build process]
 	
-Results on our team
+[Results on our team]
 
 This work is licensed under the Creative Commons Attribution-Share Alike 3.0 United States License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/us/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
