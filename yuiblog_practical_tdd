@@ -9,6 +9,7 @@ The decision to start unit testing
 Why test driven development
 	More structured
 	More thought goes into each discussion
+	Over-all cost savings since bugs are found in context and downstream issues are not introduced
 	Better test coverage
 	Better value to QA (if you work with a QA team)
 
