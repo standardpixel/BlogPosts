@@ -1,0 +1,24 @@
+Practical Test Driven Development
+
+Introduction
+
+The decision to start unit testing
+	New code is breaking old code
+	Reduce risk of integrating code from other sources
+
+Why test driven development
+	More structured
+	More thought goes into each discussion
+	Better test coverage
+	Better value to QA (if you work with a QA team)
+
+Making adoption simple
+	Simple steps
+	Flexibility in process
+	Custom conventions and tools
+	
+Re-using tests
+	Ongoing regression tests
+	Integration with build process
+	
+Conclusion
