@@ -1,0 +1,28 @@
+Implementation Focus: The Report Manager
+
+When an applications focus is providing reports, there are inevitable unique challenges. On one hand, resource-wise it makes more sense to hire backend engineers who can manage the complex queries which actually drive the content. This is usually a tough job because often the reports that you develop could have major financial and legal repercussions in a failure. On the other hand, designers and users will be pressuring you to have and interface that will be able to compete with desktop reporting tools and spreadsheets while still being accessible to A-grade browsers. Both of these requirements can be met leveraging a UI library like YUI and tools like the DataTable.
+
+What is the Report Manager?
+A conduit which manages instances of the YUI DataTable[link] and DataSource[link]. By hooking into a couple of custom events[link], the front-end code can provide the functionality needed but configurations can be supplied completely by the backend. The Report Manager will need to also be able to provide hooks for modules that extend the capabilities of the DataTable. Lets say for instance that you want to add a set of pagination links to the bottom of the page for the managed DataTable instance. This can be done simply with a little javascript and the YUI pagination. The problem is that this code probably specific to one DataTable configuration and can not be changed when the report is changed by the backend.
+
+Why do we need a Report Manager when we already 
+
+If your budget does not allow for you to hire a strong front-end team you will need to find clever ways to use the resources you have most effectively. The YUI Library provides a lot of functionality which can be used right away but you will first need to design a convention which allows you to easily hook these parts together without the need for a lot of glue code to be written on the front-end. These conventions will be unique to your application but this post will provide examples from an application that I have developed . 
+	* Stateless front-end
+
+* Pre-packaged best practice
+	* Being as unobtrusive as possible
+	* Override-able for future font-ends do you don't paint yourself in a corner
+	* No functions, only JSON
+	* Conventions make best practice easier
+		* apply
+		* get
+		* set
+		* update
+		* generate
+	
+* Usage examples
+	* Pre-loaded data
+	* Post-loading data
+	* On demand
+	
